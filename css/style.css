@@ -12,7 +12,10 @@
 .container {
 	width: 1088px;
 	height: 921px;
-	margin: 0 auto;
+	margin-top: 40px;
+	margin-bottom: 87px;
+	margin-left: auto;
+	margin-right: auto;
 }
 .first-div {
 	width: 1088px;
@@ -24,10 +27,33 @@
 	height: 360px;
 	margin-top: 16px;
 }
-.smallest-div {
+.smallest-div1-1 {
 	width: 352px;
 	height: 360px;
 	background-color: #F8F8F8;
+	margin-right: 16px;
+}
+.smallest-div2 {
+	width: 352px;
+	height: 360px;
+	background-color: #F8F8F8;
+	margin-right: 16px;
+}
+.smallest-div1-3 {
+	width: 352px;
+	height: 360px;
+	background-color: #F8F8F8;
+}
+.smallest-div2-1 {
+	width: 352px;
+	height: 360px;
+	background-color: #F8F8F8;
+}
+.smallest-div2-3 {
+	width: 352px;
+	height: 360px;
+	background-color: #F8F8F8;
+	margin-right: 16px;
 }
 .bg-image1 {
 	background-image: url('../img/1.jpg');
@@ -55,34 +81,107 @@
 }
 .p1 {
 	width: 260px;
+	margin-top: 27px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'Poppins', sans-serif;
+	font-size: 18px;
+	font-weight: 600;
+	color: #000000;
 }
 .p2 {
 	width: 260px;
+	margin-top: 27px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'Poppins', sans-serif;
+	font-size: 18px;
+	font-weight: 600;
+	color: #000000;
 }
 .p3 {
 	width: 260px;
+	margin-top: 27px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'Poppins', sans-serif;
+	font-size: 18px;
+	font-weight: 600;
+	color: #000000;
 }
 .p1::before {
 	content: 'Food and life';
 	display: block;
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #5863F8;
+	padding: 7px;
 }
 .p1::after {
 	content: 'Fresh food directly from our restaurant ready coocked for you';
 	display: block;
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+	font-weight: 500;
+	color: #B1B1B1;
+	padding: 10px;
 }
 .p2::before {
 	content: 'Cooking';
 	display: block;
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #5863F8;
+	padding: 7px;
 }
 .p2::after {
 	content: 'Fresh food directly from our restaurant ready coocked for you';
 	display: block;
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+	font-weight: 500;
+	color: #B1B1B1;
+	padding: 10px;
 }
 .p3::before {
 	content: 'Fruits';
 	display: block;
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #5863F8;
+	padding: 7px;
 }
 .p3::after {
 	content: 'Fresh food directly from our restaurant ready coocked for you';
 	display: block;
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+	font-weight: 500;
+	color: #B1B1B1;
+	padding: 10px;
+}
+/*Text styles*/
+.h4 {
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #5863F8;
+	margin-bottom: 5px;
+}
+.h1 {
+	font-family: 'Poppins', sans-serif;
+	font-size: 42px;
+	font-weight: 800;
+	color: #000000;
+	width: 465px;
 }
