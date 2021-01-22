@@ -1,0 +1,88 @@
+/*base styles*/
+.clear {
+	clear: both;
+}
+.f-right {
+	float: right;
+}
+.f-left {
+	float: left;
+}
+/*body styles*/
+.container {
+	width: 1088px;
+	height: 921px;
+	margin: 0 auto;
+}
+.first-div {
+	width: 1088px;
+	height: 360px;
+	margin-top: 50px;
+}
+.second-div {
+	width: 1088px;
+	height: 360px;
+	margin-top: 16px;
+}
+.smallest-div {
+	width: 352px;
+	height: 360px;
+	background-color: #F8F8F8;
+}
+.bg-image1 {
+	background-image: url('../img/1.jpg');
+	width: 352px;
+	height: 212px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.bg-image2 {
+	background-image: url('../img/2.jpg');
+	width: 352px;
+	height: 212px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.bg-image3 {
+	background-image: url('../img/3.jpg');
+	width: 352px;
+	height: 212px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.p1 {
+	width: 260px;
+}
+.p2 {
+	width: 260px;
+}
+.p3 {
+	width: 260px;
+}
+.p1::before {
+	content: 'Food and life';
+	display: block;
+}
+.p1::after {
+	content: 'Fresh food directly from our restaurant ready coocked for you';
+	display: block;
+}
+.p2::before {
+	content: 'Cooking';
+	display: block;
+}
+.p2::after {
+	content: 'Fresh food directly from our restaurant ready coocked for you';
+	display: block;
+}
+.p3::before {
+	content: 'Fruits';
+	display: block;
+}
+.p3::after {
+	content: 'Fresh food directly from our restaurant ready coocked for you';
+	display: block;
+}
